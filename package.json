@@ -1,0 +1,26 @@
+{
+  "name": "eclipsefdn-hugo-openadx",
+  "description": "Source code for openadx.eclipse.org",
+  "main": "webpack.min.js",
+  "author": "Christopher Guindon",
+  "license": "EPL-2.0",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/EclipseFdn/openadx.eclipse.org/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EclipseFdn/openadx.eclipse.org.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "Yamm": "git+https://github.com/geedmo/yamm3.git#d604f9ad80b46f361f38d06eb9157dbbbb91229a",
+    "eclipsefdn-hugo-solstice-theme": "0.0.20"
+  }
+}
