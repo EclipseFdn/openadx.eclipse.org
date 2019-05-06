@@ -9,7 +9,7 @@ themesDir = "node_modules/"
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = ""
+  description = "OpenADx is about an ecosystem. Each company/partner brings its specialized expertise into one or more of the ecosystem topic areas helping to create the most efficient tool chain possible and improve that toolchain over time."
   subtitle = ""
   seo_title_suffix = "| Eclipse openADx Working Group | The Eclipse Foundation"
   keywords = []
