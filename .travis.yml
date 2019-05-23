@@ -1,16 +1,14 @@
-sudo: true
-dist: trusty
+language: node_js
+node_js:
+  - "10"
+  - "12"
 install:
-- sudo apt-get --yes install autoconf libtool nasm
 - npm install
 - wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 script:
 - npm run production
 - hugo
-cache:
-  directories:
-  - node_modules
 deploy:
   local-dir: public
   repo: EclipseFdn/openadx.eclipse.org
@@ -23,6 +21,7 @@ deploy:
   name: Christopher Guindon
   on:
     branch: master
+    node_js: "10"
 env:
   global:
     secure: Ey1P9osj1iDBK9iItbiwQzmJNsKP4iTq3usP++/OiM0Vu3rQnc0Reg/fvSqISYZYce7C68Xq0QBzFuU5Hsy9ryGVTic/Fqe2+doiGjnMDTTTr/jfAIWAv/SKQaCa1FOiwcHdpc4jvmzCy6zx0p5ZgZI2gHiJFEN/iJV1/55xEOQ/sqhe4cUJLuAkohsBPl3X7Al5uCSqH/tifzvHXffsEVJvSc3NNSMOYiriaZiPf5S6iiwsUhlgaCMS5yPrunXU/fQ+cCTlMQWfPNXsS5A2EL8TY9ZTEfjchWJTPqyuwfgX0cc8IymD2UZZmc5jQ7mI2PBtYqF2LT4D1aMI5JGFlJnr+AbiFOmq4iCqgoMLYGxgTFb1Z3jgGf7Jaus9jgQK2+Rvt0wdrEEc2bZQA8Owq4stL5yQqvExQe7ZnP4GZ3F8nYZDwd7rHq2rccJK3zSUuonONhDOOzCfbVWWtAkMRavuBbusoZbbzTxmufwBRHvf6XAggV8a5f5QBQMr6AmTiv22xblcAUsx3CRjwy4quSK+nGaB0FeqXhB2QBr2Ud1kiMf5bD51QCY5gMebtcValH6EFc9aObAtciMXrFpSoOYmXjqxHiW693B/gzG9Q4ZPzJFy9ZCDBAnI46gOMzyCjDW8NOcmcOX7rjRLAJ5BhKR6L/JJtnmY+r422cnwQFA=
