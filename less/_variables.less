@@ -1,5 +1,5 @@
-/*!
- * Copyright (c) 2019 Eclipse Foundation, Inc.
+/*
+ * Copyright (c) 2018 Eclipse Foundation, Inc.
  * 
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v. 2.0 which is available at
@@ -11,4 +11,64 @@
  * SPDX-License-Identifier: EPL-2.0
 */
 
-//== /_core/template/header.less
+// Default variables
+
+@brand-primary:         #75c047; // Green
+@brand-secondary:       #0d6fb3; // Blue
+@brand-tertiary:        #6f6f6f; // Grey
+@brand-quaternary:      @brand-tertiary; // Dark purple
+@brand-quinary:         @brand-tertiary; // lime green
+@brand-info:            #afbbdc; // Baby blue
+@brand-info-light:      #dbe3f8; // Light baby blue
+@brand-warning:         #f7941e; // Orange
+
+@header-default-bg-img:url('/images/bg-header.jpg');
+
+//== Number of columns in the grid.
+@grid-columns: 24;
+
+//== Font
+@font-size-base: 16px;
+
+//==  Background color for `<body>`.
+@body-bg: #fff;
+
+//== Jumbotron
+@jumbotron-bg-color:@brand-primary;
+@jumbotron-color:#fff;
+@jumbotron-text-align:center;
+@jumbotron-h1-size:65px;
+@jumbotron-h1-weight:bold;
+@jumbotron-h1-mobile-size:@jumbotron-h1-size;
+
+//== Typography
+@font-family-sans-serif:  "Cabin", Arial, sans-serif;
+
+// Default Menu
+@main-menu-link-color: @brand-secondary;
+@alternate-main-menu-link-color:#6b655f;
+@main-menu-link-active-color: darken(@white, 20%);
+@alternate-main-menu-link-active-color: darken(#6b655f, 20%);
+@main-menu-link-hover-color: darken(#6b655f, 20%);
+@main-menu-link-hover-bg-color:transparent;
+@main-menu-link-transform:none;
+@alternate-main-menu-link-transform:@main-menu-link-transform;
+
+@mobile-menu-nav-background: @brand-tertiary;
+
+@main-menu-link-size:15px;
+@alternate-main-menu-link-size:@main-menu-link-size;
+
+@main-menu-dropdown-menu-background:@white;
+@main-menu-dropdown-link-color: #333;
+@main-menu-dropdown-link-active-color: #333;
+@main-menu-dropdown-link-hover-color: #333;
+
+@footer-h2-color:@brand-tertiary;
+@footer-color:@brand-tertiary;
+@footer-link-color:@brand-tertiary;
+@footer-link-hover:darken(@footer-link-color, 15%);
+
+@breadcrumb-color:#555555;
+@breadcrumb-hover:darken(@breadcrumb-color, 15%);
+@breadcrumb-background:#d9d9d9;

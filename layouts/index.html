@@ -1,53 +1,45 @@
 {{ define "main" }}
-<main>
-  <div class="container">
-    <!-- Announcements -->
-    <div class="row margin-bottom-50 margin-top-20">
-      <div class="col-sm-12 news-list">
-        <div class="news-list-col margin-bottom-40">
-          <h2 class="heading-line text-center">
-            <span>Announcements</span>
-          </h2>
-          {{ range first 5 (where (index .Site.Taxonomies.categories "announcements").Pages "Section" "news") }}
-          <ul class="news-list-media list-unstyled">
+   <!-- Announcements -->
+  <div id="news" class="row margin-bottom-50">
+    <div class="col-sm-11 news-list">
+      <h2 class="header-underline margin-bottom-30">News</h2>
+      <div class="news-items">
+        {{ range first 5 (where (index .Site.Taxonomies.categories "news").Pages "Section" "news") }}
+          <ul class="list-unstyled news-item">
             <li>
-              <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item">
-                <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-                <h4 class="media-heading">{{ .Title }}</h4>
-                <p class="media-text">{{ .Summary }}</p>
-              </a>
+              <p class="margin-bottom-0">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+              <p class="margin-bottom-0"><strong><a class="news-list-link" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title }}</strong></a></p>
+              <p>{{ .Summary }}</p>
             </li>
           </ul>
-          {{ end }}
-          <ul class="list-inline news-list-links">
-            <li class="news-list-links-view-all"><a href="categories/announcements">View all</a></li>
-            <li class="news-list-links-rss"><a href="categories/announcements/index.xml" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
-          </ul>
-        </div>
+        {{ end }}
       </div>
-      <div class="col-sm-12 news-list">
-        <div class="news-list-col margin-bottom-40">
-          <h2 class="heading-line text-center">
-            <span>Community News</span>
-          </h2>
-          {{ range first 5 (where (index .Site.Taxonomies.categories "community").Pages "Section" "news") }}
-          <ul class="news-list-media list-unstyled">
-            <li>
-              <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item">
-                <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-                <h4 class="media-heading">{{ .Title }}</h4>
-                <p class="media-text">{{ .Summary }}</p>
-              </a>
-            </li>
-          </ul>
-          {{ end }}
-          <ul class="list-inline news-list-links">
-            <li class="news-list-links-view-all"><a href="categories/community">View all</a></li>
-            <li class="news-list-links-rss"><a href="categories/community/index.xml" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
-          </ul>
-        </div>
+      <ul class="list-inline news-list-links">
+        <li class="news-list-links-view-all"><a href="/news">View all</a></li>
+        <li class="news-list-links-rss"><a href="categories/news/index.xml" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-sm-offset-1 news-list">
+      <h2 class="header-underline margin-bottom-30">Events</h2>
+      <div class="news-items">
+        {{ range first 5 (where (index .Site.Taxonomies.categories "events").Pages "Section" "events") }}
+          <div class="row news-item">
+            <div class="col-sm-16">
+              <p class="margin-bottom-0"><strong>{{ .Title }}</strong></p>
+              <p class="margin-bottom-0">{{ .Params.location }}</p>
+              <p>{{ .Params.event_date }}</p>
+            </div>
+            <div class="col-sm-8">
+              <p class="events-list-link text-right"><a class="btn btn-secondary" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">Learn more</a></p>
+            </div>
+          </div>
+        {{ end }}
       </div>
+      <ul class="list-inline news-list-links">
+        <li class="news-list-links-view-all"><a href="/events">View all</a></li>
+        <li class="news-list-links-rss"><a href="categories/events/index.xml" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
+      </ul>
     </div>
   </div>
-</main>
+  {{ .Content }}
 {{ end }}
