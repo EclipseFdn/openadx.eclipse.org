@@ -13,9 +13,9 @@ themesDir = "node_modules/"
   subtitle = ""
   seo_title_suffix = "| Eclipse openADx Working Group | The Eclipse Foundation"
   keywords = []
-# logo = ""
+  logo = "images/openadx-logo.svg"
   styles = "css/styles.css"
-# favicon = "o"
+  favicon = "images/adx-favicon.ico"
 # share_img = ""
   gcse = "011805775785170369411:p3ec0igo0qq"
 # subtheme = ""
@@ -30,14 +30,14 @@ themesDir = "node_modules/"
   tag = "tags"
 
 [Author]
-  name = "Christopher Guindon"
-  website = "https://www.eclipse.org"
-  email = "chris.guindon@eclipse-foundation.org"
-  facebook = "eclipse.org"
-  twitter = "EclipseFdn"
-  youtube = "EclipseFdn"
-  googleplus = "+Eclipse"
-  linkedin = "company/eclipse-foundation/"
+  name = "Eclipse openADx Working Group"
+  website = "https://openadx.eclipse.org/"
+# email = "chris.guindon@eclipse-foundation.org"
+# facebook = "eclipse.org"
+# twitter = "EclipseFdn"
+# youtube = "EclipseFdn"
+# googleplus = "+Eclipse"
+# linkedin = "company/eclipse-foundation/"
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
@@ -47,6 +47,36 @@ themesDir = "node_modules/"
   hrefTargetBlank = true
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "News"
+    url = "/news/"
     weight = 1
+
+[[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 2
+
+[[menu.main]]
+    name = "Vision"
+    url = "/vision/"
+    weight = 3
+
+[[menu.main]]
+    name = "Technologies"
+    url = "/technologies/"
+    weight = 4
+
+[[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 5
+
+[[menu.main]]
+    name = "Working Group"
+    url = "/working-group/"
+    weight = 6
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 7

@@ -1,7 +1,7 @@
 ---
 title: "News"
 date: 2019-04-16T16:09:45+02:00
-layout: "news"
+layout: "list"
 description: ""
 keywords: []
 slug: ""
