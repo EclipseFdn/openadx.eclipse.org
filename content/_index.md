@@ -19,7 +19,7 @@ date: 2019-03-14T15:50:25-04:00
       <div class="row">
         <div class="col-sm-12 col-md-push-10 col-sm-push-12">
           <div class="featured-circle featured-circle-right">
-            <img class="img-responsive" src="/images/openadx-logo.svg">
+            {{<image src="images/openadx-logo.svg" class="img-responsive">}}
           </div>
         </div>
         <div class="col-sm-12 col-md-pull-10 col-sm-pull-12">

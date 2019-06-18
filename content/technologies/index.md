@@ -24,7 +24,7 @@ OpenADx' vision is to ensure transparency and make the complex AD tool landscape
 
 AD is a complex challenge and therefore requires a multifaceted development process incorporating a variety of software tools. The tools the industry currently uses are very good, but they don’t seamlessly work with one another. This is a result of the tools not being designed to work together. This is an industry-wide issue that slows us down in the race to AD development. By pooling resources, we can remove the “friction” between widely used tools. We can create something of use to all of us: open, compatible and accessible.
 
-<p><img class="img-responsive" src="/images/tool_scheme.jpg"></p>
+{{<image src="images/tool_scheme.jpg" class="img-responsive">}}
 
 <h3>Problem and benefits for OEMs and Tier1s</h3>
 
