@@ -24,8 +24,8 @@ date: 2019-03-14T15:50:25-04:00
         </div>
         <div class="col-sm-12 col-md-pull-10 col-sm-pull-12">
           <h2 class="header-underline margin-top-0">Vision</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <p><a class="btn btn-primary" href="#">Learn More</a></p>
+          <p>Autonomous driving (AD) is an extremely complex challenge with a complex development process, which is slowed at every turn by incompatibility between widely used development tools. The tools we already use in and of themselves are very good, but they do not work seamlessly with one another simply because they were never designed to work with each other. This is an industry-wide issue. It slows us all down in the race to automated driving. It costs money and precious resources to reduce the problem to a manageable level. And the thing about it is that the tool chain itself is not something we can monetize.</p>
+          <p><a class="btn btn-primary" href="vision">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -36,14 +36,21 @@ date: 2019-03-14T15:50:25-04:00
       <div class="col-sm-11 featured-technologies">
        <span class="circle-outline circle-outline-center"><i data-feather="share-2" stroke-width="1"></i></span>
        <h2 class="header-underline header-underline-center margin-bottom-25">Technologies</h2>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-       <p><a class="btn btn-primary" href="#">Learn More</a></p>
+       <p>Automated Driving (AD) is clustered into three equally important technology areas:</p>
+       <ul style="list-style-position: inside;">
+       <li>In-vehicle technology</li>
+       <li>Cloud technology (backend)</li>
+       <li>Design, development, test and validation tools (tool chain)</li>
+       </ul>
+       <p>OpenADx is currently focused on the AD tool chain. The goal is to accelerate AD development through open collaboration and open source.</p>
+       <p>OpenADx’ vision is to ensure transparency and make the complex AD tool landscape more easily accessible for enterprise users.</p>
+       <p><a class="btn btn-primary" href="technologies">Learn More</a></p>
       </div>
       <div class="col-sm-11 col-sm-offset-2 featured-resources">
        <span class="circle-outline circle-outline-center"><i data-feather="file-text" stroke-width="1"></i></span>
        <h2 class="header-underline header-underline-center margin-bottom-25">Resources</h2>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-       <p><a class="btn btn-primary" href="#">Learn More</a></p>
+       <p>Explore our information material about OpenADx and Autonomous Driving.</p>
+       <p><a class="btn btn-primary" href="resources">Learn More</a></p>
       </div>
     </div>
   </div>
@@ -58,8 +65,15 @@ date: 2019-03-14T15:50:25-04:00
         </div>
         <div class="col-sm-12 col-md-10">
           <h2 class="header-underline margin-top-0">Working Group</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <p><a class="btn btn-primary" href="#">Learn More</a></p>
+          <p>The OpenADx working group will coordinate the development of Eclipse Foundation projects on the following topics:</p>
+          <ul>
+            <li>Implementation of interfaces between the development steps</li>
+            <li>Implementation of common standards from other working groups (e.g. VDA Leitinitiative)</li>
+            <li>Definition of an initial setup for fast implementation</li>
+            <li>Ensures interoperability between development stages</li>
+          </ul>
+          <p>Find out how to join, how to participate and contribute</p>
+          <p><a class="btn btn-primary" href="working-group">Learn More</a></p>
         </div>
       </div>
     </div>
