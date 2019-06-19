@@ -45,11 +45,15 @@ User insight:
 Benefit:
 
 The seamless integration of your technology in the automated driving tool chain makes it more attractive to organizations developing automated driving applications by increasing their development efficiency.
-
-**Simulation and test**
-
-[Eclipse Cloe](https://projects.eclipse.org/proposals/eclipse-cloe)
-
+<hr>
+<div class="row">
+  <div class="col-sm-12 col-sm-offset-6 shortcodes-technologies text-center match-height-item">
+    <span class="circle-outline circle-outline-center">{{< image width="40" src="/images/technologies/technologies_simulation_and_test.png">}}</span>
+    <h3 class="h4 header-underline">Simulation and Test</h3>
+    <p class="margin-bottom-0"><a class="btn btn-primary" href="https://projects.eclipse.org/proposals/eclipse-cloe">Learn More</a></p>
+  </div>
+</div>
+<hr>
 <h3>Cloe Description</h3>
 
 Cloe is an enhanced middleware solution for closed-loop simulations, with a focus on functional software tests on system level. Cloe is used as a development tool for interactive and scripted workstation simulations, for code debugging, and for automated tests on servers. Cloe covers a central part of the verification and validation strategy, needed by all vendors in the field of Automated Driving.
