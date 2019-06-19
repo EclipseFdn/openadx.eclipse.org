@@ -13,6 +13,7 @@ This is an industry-wide issue. It slows us all down in the race to automated dr
 All major stakeholders/users have issues associated with tool incompatibility, data conversion and lost time.
 
 We lessen this problem by creating the leading automated driving ecosystem ➢ OpenADx
+
 We leverage open collaboration and open source to:
 
 - Accelerate time to market
