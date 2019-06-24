@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: openmobility.eclipse.org
+  name: openadx.eclipse.org
   namespace: foundation-internal-webdev-apps
 spec:
   selector:
     matchLabels:
-      app: openmobility.eclipse.org
+      app: openadx.eclipse.org
       environment: production
   replicas: 2
   template:
     metadata:
       labels:
-        app: openmobility.eclipse.org
+        app: openadx.eclipse.org
         environment: production
     spec:
       containers:
       - name: nginx
-        image: eclipsefdn/openmobility.eclipse.org
+        image: eclipsefdn/openadx.eclipse.org
         ports:
         - containerPort: 8080
         resources:
@@ -31,7 +31,7 @@ spec:
 apiVersion: "v1"
 kind: "Service"
 metadata:
-  name: openmobility-eclipse-org
+  name: openadx-eclipse-org
   namespace: foundation-internal-webdev-apps
 spec:
   ports:
@@ -40,18 +40,18 @@ spec:
     protocol: "TCP"
     targetPort: 8080
   selector:
-    app: openmobility.eclipse.org
+    app: openadx.eclipse.org
     environment: production
 ---
 apiVersion: "route.openshift.io/v1"
 kind: "Route"
 metadata:
-  name: openmobility.eclipse.org
+  name: openadx.eclipse.org
   namespace: foundation-internal-webdev-apps
   annotations:
     haproxy.router.openshift.io/timeout: 20s
 spec:
-  host: "openmobility.eclipse.org"
+  host: "openadx.eclipse.org"
   path: "/"
   port:
     targetPort: "http"
@@ -60,5 +60,5 @@ spec:
     termination: "edge"
   to:
     kind: "Service"
-    name: openmobility-eclipse-org
+    name: openadx-eclipse-org
     weight: 100
