@@ -15,7 +15,7 @@ The OpenADx working group will coordinate the development of Eclipse Foundation 
 - Definition of an initial setup for fast implementation
 - Ensures interoperability between development stages
 
-[ToolScheme picture]
+{{<image src="images/tool_scheme.jpg" class="img-responsive margin-bottom-20">}}
 
 Projects hosted by the Eclipse Foundation in the context of the OpenADx working group apply the Eclipse development process and best practices of openness, transparency and meritocracy. As such, these projects are open to participation by developers or contributors. They can submit contributions to the project that will be considered for inclusion by the project committers. Committer status is acquired by contributors after election by existing committers as described in the Eclipse Development Process.
 
