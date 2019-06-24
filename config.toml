@@ -1,4 +1,4 @@
-baseurl = "https://eclipsefdn.github.io/openadx.eclipse.org/"
+baseurl = "https://openadx.eclipse.org/"
 DefaultContentLanguage = "en"
 title = "" 
 theme = "eclipsefdn-hugo-solstice-theme"
