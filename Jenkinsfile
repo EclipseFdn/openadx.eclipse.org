@@ -4,7 +4,7 @@ def environmentFromBranch(branch) {
   } else if (branch == 'staging') {
     return 'staging'
   } else {
-   return ''
+    return 'unknown'
   }
 }
 
