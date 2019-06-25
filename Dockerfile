@@ -3,6 +3,8 @@ FROM debian:9 AS builder
 ARG HUGO_VERSION=0.54.0
 ARG NODE_VERSION=10.15.0
 
+RUN env
+
 RUN apt-get update && apt-get install -y \
     build-essential \
     ca-certificates \
