@@ -1,4 +1,6 @@
-FROM debian:9 AS builder
+ARG NGINX_IMAGE_TAG=stable-alpine
+
+FROM debian:10-slim AS builder
 
 ARG HUGO_VERSION=0.54.0
 ARG NODE_VERSION=10.15.0
@@ -31,6 +33,6 @@ RUN npm ci \
     && npm run production \
     && hugo
 
-FROM eclipsefdn/nginx
+FROM eclipsefdn/nginx:${NGINX_IMAGE_TAG}
 
 COPY --from=builder /workdir/public/ /usr/share/nginx/html/
