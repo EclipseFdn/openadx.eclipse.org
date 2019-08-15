@@ -28,6 +28,7 @@ themesDir = "node_modules/"
 [taxonomies]
   category = "categories"
   tag = "tags"
+  participation_level = "participation_levels"
 
 [Author]
   name = "Eclipse openADx Working Group"
@@ -80,3 +81,8 @@ themesDir = "node_modules/"
     name = "Projects"
     url = "/projects/"
     weight = 7
+    
+[[menu.main]]
+    name = "Members"
+    url = "/members/"
+    weight = 8
