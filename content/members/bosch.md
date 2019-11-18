@@ -1,6 +1,6 @@
 ---
 title: "Robert Bosch GmbH"
-date: 2019-03-14T05:10:00-00:00
+date: 2019-03-22T05:10:00-00:00
 draft: false
 logo: "/images/members/bosch.svg"
 website: ""
