@@ -1,6 +1,6 @@
 ---
 title: "JC Information Management GmbH"
-date: 2019-03-14T05:10:00-00:00
+date: 2019-03-17T05:10:00-00:00
 draft: false
 logo: "/images/members/jcim.jpg"
 website: ""

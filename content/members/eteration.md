@@ -1,6 +1,6 @@
 ---
 title: "Eteration A.S."
-date: 2019-03-14T05:10:00-00:00
+date: 2019-03-20T05:10:00-00:00
 draft: false
 logo: "/images/members/eteration.png"
 website: ""
