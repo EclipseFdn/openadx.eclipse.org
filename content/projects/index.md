@@ -8,7 +8,7 @@ hide_page_title: true
 ---
 
 <div class="row">
-  <div class="col-sm-8 col-sm-offset-4 shortcodes-technologies text-center match-height-item margin-bottom-30">
+  <div class="col-sm-8 shortcodes-technologies text-center match-height-item margin-bottom-30">
     <h3 class="h4 header-underline">Eclipse Cloe</h3>
     <p>Eclipse Cloe provides simulation middleware and simulation-engine bindings for connecting simulation engines to the "software under test".</p>
     <p><a class="btn btn-secondary" href="https://projects.eclipse.org/proposals/eclipse-cloe">Project Proposal</a></p>
