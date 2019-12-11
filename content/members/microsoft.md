@@ -7,3 +7,5 @@ website: ""
 participation_levels: "participant"
 member_id: 1350
 ---
+
+At Microsoft, our developer mission is to deliver experiences that empower any developer, building any application, on any OS.
