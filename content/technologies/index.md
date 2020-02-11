@@ -8,7 +8,7 @@ hide_sidebar: true
 hide_page_title: true
 ---
 
-<h2>About Technologies</h2>
+## About Technologies
 
 Automated Driving (AD) is clustered into three equally important technology areas:
 
@@ -20,13 +20,13 @@ OpenADx is currently focused on the AD tool chain. The goal is to accelerate AD 
 
 OpenADx' vision is to ensure transparency and make the complex AD tool landscape more easily accessible for enterprise users.
 
-<h3>Challenge</h3>
+### Challenge
 
 AD is a complex challenge and therefore requires a multifaceted development process incorporating a variety of software tools. The tools the industry currently uses are very good, but they don’t seamlessly work with one another. This is a result of the tools not being designed to work together. This is an industry-wide issue that slows us down in the race to AD development. By pooling resources, we can remove the “friction” between widely used tools. We can create something of use to all of us: open, compatible and accessible.
 
-{{<image src="images/tool_scheme.jpg" class="img-responsive">}}
+{{<image src="/images/tool_scheme.jpg" class="img-responsive">}}
 
-<h3>Problem and benefits for OEMs and Tier1s</h3>
+### Problem and benefits for OEMs and Tier1s
 
 User insight:
 
@@ -36,7 +36,7 @@ Benefit:
 
 The automated driving tool chain allows your team to work together more efficiently with a suite of highly integrated tools by enabling seamless transfer of data and code through each step of the automated driving development process.
 
-<h3>Problem and benefits for tool and technology providers</h3>
+### Problem and benefits for tool and technology providers
 
 User insight:
 
@@ -45,16 +45,14 @@ User insight:
 Benefit:
 
 The seamless integration of your technology in the automated driving tool chain makes it more attractive to organizations developing automated driving applications by increasing their development efficiency.
-<hr>
-<div class="row">
-  <div class="col-sm-12 col-sm-offset-6 shortcodes-technologies text-center match-height-item">
-    <span class="circle-outline circle-outline-center">{{< image width="40" src="/images/technologies/technologies_simulation_and_test.png">}}</span>
-    <h3 class="h4 header-underline">Simulation and Test</h3>
-    <p class="margin-bottom-0"><a class="btn btn-primary" href="https://projects.eclipse.org/proposals/eclipse-cloe">Learn More</a></p>
-  </div>
-</div>
-<hr>
-<h3>Cloe Description</h3>
+
+---
+
+{{< simulation-test-banner >}}
+
+---
+
+### Cloe Description
 
 Cloe is an enhanced middleware solution for closed-loop simulations, with a focus on functional software tests on system level. Cloe is used as a development tool for interactive and scripted workstation simulations, for code debugging, and for automated tests on servers. Cloe covers a central part of the verification and validation strategy, needed by all vendors in the field of Automated Driving.
 
