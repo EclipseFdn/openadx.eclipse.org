@@ -7,3 +7,5 @@ website: ""
 participation_levels: "participant"
 member_id: 900
 ---
+
+EclipseSource provides services to you to maximize your benefits of Eclipse open-source technology.

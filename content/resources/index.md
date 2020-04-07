@@ -6,10 +6,10 @@ layout: "single"
 hide_sidebar: true
 ---
 
-<h3>White Papers</h3>
+### White Papers
 under construction
 
-<h3>Articles</h3>
+### Articles
 Watch the video on OpenADx here on YouTube: https://youtu.be/7gHLkSzWNKA
 
 - [Blog Post: Autonomous Driving Toolchain](https://blog.bosch-si.com/developer/autonomous-driving-toolchain)
@@ -18,26 +18,18 @@ Watch the video on OpenADx here on YouTube: https://youtu.be/7gHLkSzWNKA
 - [Blog Post: OpenADx reaches next level](https://blog.bosch-si.com/mobility/openadx-initiative-reaches-next-level/)
 - [Vorteile von Open Source fuer ADAS und autonomes Fahren (only in German available)](https://www.elektroniknet.de/elektronik-automotive/assistenzsysteme/vorteile-von-open-source-fuer-adas-und-autonomes-fahren-154085.html)
 
-<h3>Videos</h3>
-<div class="row">
-  <div class="col-sm-8">
-    {{< youtube BHGahCzT4Fw >}}
-    YouTube: OpenADx - Leveraging open collaboration & OS to accelerate Autonomous Driving dev
-  </div>
-  <div class="col-sm-8">
-    {{< youtube UyxdE-olbHE >}}
-    YouTube: OpenADx "Autonomous Driving Simulation" Testbed – hardware in the loop (sponsored by Renesas)
-  </div>
-</div>
+### Videos
 
-<h3>Toolchain Proposal</h3>
+{{< resources_video_section >}}
+
+### Toolchain Proposal
 under construction
 
-<h3>Cookbooks</h3>
+### Cookbooks
 under construction
 
-<h3>HowTo's</h3>
+### HowTo's
 under construction
 
-<h3>OpenADx Wiki</h3>
+### OpenADx Wiki
 [OpenADx Wiki](https://wiki.eclipse.org/OpenADx)
