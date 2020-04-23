@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ .Content }} 
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ if ne $paginator.NumberOfElements 0 }}
+    {{ range $paginator.Pages }}
+      {{ if isset .Params "end_date" }}
+        {{ $t := time .Params.end_date }}
+        {{ if $t.After now }}
+          {{ .Render "summary" }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+  {{ end }}
+{{ end }}

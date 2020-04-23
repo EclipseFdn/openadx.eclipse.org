@@ -23,21 +23,27 @@
 	    <div class="col-sm-12 col-sm-offset-1 news-list">
 	      <h2 class="header-underline margin-bottom-30">Events</h2>
 	      <div class="news-items">
-	        {{ range first 5 (where (index .Site.Taxonomies.categories "events").Pages "Section" "events") }}
-	          <div class="row news-item">
-	            <div class="col-sm-16">
-	              <p class="margin-bottom-0"><strong>{{ .Title }}</strong></p>
-	              <p class="margin-bottom-0">{{ .Params.location }}</p>
-	              <p>{{ .Params.event_date }}</p>
-	            </div>
-	            <div class="col-sm-8">
-	              <p class="events-list-link text-right"><a class="btn btn-secondary" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">Learn more</a></p>
-	            </div>
-	          </div>
-	        {{ end }}
+          {{ range first 5 (sort (where .Site.Pages "Section" "events") "Params.date" "desc") }}
+            {{ if isset .Params "end_date" }}
+              {{ $t := time .Params.end_date }}
+              {{ if $t.After now }}
+              <div class="row news-item">
+                <div class="col-sm-16">
+                  <p class="margin-bottom-0"><strong>{{ .Title }}</strong></p>
+                  <p class="margin-bottom-0">{{ .Params.location }}</p>
+                  <p>{{ .Params.event_date }}</p>
+                </div>
+                <div class="col-sm-8">
+                  <p class="events-list-link text-right"><a class="btn btn-secondary" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">Learn more</a></p>
+                </div>
+              </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
 	      </div>
 	      <ul class="list-inline news-list-links">
 	        <li class="news-list-links-view-all"><a href="/events">View all</a></li>
+          <li class="news-list-links-rss"><a href="/past-events">View Past Events</a></li>
 	        <li class="news-list-links-rss"><a href="categories/events/index.xml" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
 	      </ul>
 	    </div>

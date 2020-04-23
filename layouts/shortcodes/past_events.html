@@ -1,0 +1,8 @@
+  {{ range sort (where .Site.Pages "Section" "events") "Params.date" "desc" }}
+    {{if (isset .Params "end_date") }}
+      {{$t := time .Params.end_date }}
+      {{ if $t.Before now }}
+        {{ .Render "summary" }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
