@@ -5,7 +5,7 @@ draft: false
 logo: "/images/members/openrobotics.png"
 website: "https://www.openrobotics.org/"
 participation_levels: "Interested Party"
-member_id: 1
+member_id: 1443
 ---
 
 At Open Robotics, we work with industry, academia, and government to create and support open software and hardware for use in robotics, from research and education to product development.
