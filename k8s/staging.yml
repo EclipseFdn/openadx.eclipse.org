@@ -15,6 +15,16 @@ spec:
         app: openadx.eclipse.org
         environment: staging
     spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - preference:
+              matchExpressions:
+              - key: speed
+                operator: NotIn
+                values:
+                - fast
+            weight: 1
       containers:
       - name: nginx
         image: eclipsefdn/openadx.eclipse.org
