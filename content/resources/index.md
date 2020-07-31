@@ -7,7 +7,10 @@ hide_sidebar: true
 ---
 
 ### White Papers
-under construction
+
+OpenADx Manifesto
+{{<image src="/images/Thumbnail_whitepaper.png" class="img-responsive">}}
+
 
 ### Articles
 Watch the video on OpenADx here on YouTube: https://youtu.be/7gHLkSzWNKA
