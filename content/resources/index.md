@@ -8,8 +8,7 @@ hide_sidebar: true
 
 ### White Papers
 
-OpenADx Manifesto
-{{<image src="/images/Thumbnail_whitepaper.png" class="img-responsive">}}
+{{< download_whitepaper >}}
 
 
 ### Articles
