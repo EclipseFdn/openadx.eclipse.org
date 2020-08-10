@@ -4,7 +4,7 @@ date: 2020-05-25T17:15:37+03:00
 draft: false
 logo: "/images/members/openrobotics.png"
 website: "https://www.openrobotics.org/"
-participation_levels: "Interested Party"
+participation_levels: "Guest"
 member_id: 1443
 ---
 

@@ -4,7 +4,7 @@ date: 2019-03-22T05:10:00-00:00
 draft: false
 logo: "/images/members/bosch.svg"
 website: ""
-participation_levels: "participant"
+participation_levels: "Driver"
 member_id: 979
 ---
 

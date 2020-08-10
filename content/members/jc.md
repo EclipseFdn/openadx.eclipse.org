@@ -4,7 +4,7 @@ date: 2019-03-17T05:10:00-00:00
 draft: false
 logo: "/images/members/jcim.jpg"
 website: ""
-participation_levels: "participant"
+participation_levels: "Driver"
 member_id: 1348
 ---
 
