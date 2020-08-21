@@ -2,8 +2,12 @@
 title: "Events"
 date: 2019-04-16T16:13:39+02:00
 description: ""
-redirect_url: "https://events.eclipse.org"
 hide_sidebar: true
 ---
 
-Redirecting to https://events.eclipse.org
+{{< newsroom/events
+      id="events_archive" 
+      archive="true"
+      publishTarget="openadx"
+      count="10"
+      paginate="true" >}}
