@@ -5,7 +5,7 @@ draft: false
 logo: "/images/members/autoware-foundation.png"
 website: "https://www.autoware.org/"
 participation_levels: "Guest"
-member_id: xxxx
+member_id: 1462
 ---
 
 The Autoware Foundation is a non-profit organization supporting open-source projects enabling self-driving mobility. The Autoware Foundation creates synergies between corporate development and academic research, enabling autonomous driving technology for everyone. Your contribution is essential.
