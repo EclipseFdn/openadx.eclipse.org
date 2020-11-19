@@ -31,7 +31,8 @@ under construction
 under construction
 
 ### HowTo's
-under construction
+[How to launch an open source project (by Red Hat)](https://www.redhat.com/en/resources/how-to-launch-an-open-source-project-overview)
+- Launching an open source project is an exciting, yet complex, process. This guide details considerations for successfully launching an open source project, including market positioning, brand, licensing, legal, governance, infrastructure and finance, and metrics. Learn more in this overview.
 
 ### OpenADx Wiki
 [OpenADx Wiki](https://wiki.eclipse.org/OpenADx)
