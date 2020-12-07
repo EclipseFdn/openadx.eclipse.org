@@ -31,8 +31,11 @@ under construction
 under construction
 
 ### HowTo's
-[How to launch an open source project (by Red Hat)](https://www.redhat.com/en/resources/how-to-launch-an-open-source-project-overview)
+[How to launch an open source project? (by Red Hat)](https://www.redhat.com/en/resources/how-to-launch-an-open-source-project-overview)
 - Launching an open source project is an exciting, yet complex, process. This guide details considerations for successfully launching an open source project, including market positioning, brand, licensing, legal, governance, infrastructure and finance, and metrics. Learn more in this overview.
+
+[Measuring open source project health (by Red Hat)](https://www.redhat.com/en/resources/measuring-open-source-health-brief)
+- A healthy open source project is one that demonstrates open practices, uses open infrastructure, and cultivates an open culture with the goal of becoming more sustainable. This document outlines considerations you should make when assessing the health of an open source project.
 
 ### OpenADx Wiki
 [OpenADx Wiki](https://wiki.eclipse.org/OpenADx)
