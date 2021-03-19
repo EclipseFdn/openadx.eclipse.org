@@ -2,7 +2,7 @@
    <!-- Announcements -->
    <div class="container">
 	  <div id="news" class="row margin-bottom-50">
-      <div class="col-sm-8 news-list">
+      <div class="col-sm-12 news-list">
 	      <h2 class="header-underline margin-bottom-30">News</h2>
           <div id="news-list-container" class="news-list" data-news-count="3" data-publish-target="openadx">
           </div>
@@ -20,21 +20,31 @@
             <li class="news-list-links-view-all"><a href="https://newsroom.eclipse.org/node/add/events">Submit Event</a></li>
           </ul>
       </div>
-	    <div class="col-sm-8 col-sm-offset-1 news-list">
-	      <h2 class="header-underline margin-bottom-30">Twitter</h2>
-          <div id="event-list-container" class="news-items" data-template-id="event-short-list" data-count="4" data-publish-target="openadx">
-          </div>
-          <ul class="list-inline block-summary-more margin-bottom-40">
-            <a class="twitter-timeline" href="https://twitter.com/OpenADx?ref_src=twsrc%5Etfw">Tweets by OpenADx</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          
-            <a href="https://twitter.com/OpenADx?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @OpenADx</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </ul>
-      </div>  
 	  </div>
   </div>
   {{ .Content }}
+
+  <div id="vision" class="featured-section featured-vision padding-top-60 padding-bottom-60 row">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-push-10 col-sm-push-12">
+          <div class="featured-circle featured-circle-right">
+            <img src="images/openadx-logo.svg" class="img-responsive" alt="OpenADX logo" />
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-pull-10 col-sm-pull-12">
+          <h2 class="header-underline margin-top-0">Twitter</h2>
+
+          <a class="twitter-timeline" data-width="220" data-height="300" data-theme="light" href="https://twitter.com/OpenADx?ref_src=twsrc%5Etfw">Tweets by OpenADx</a> 
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        
+          <p><a class="btn btn-primary" href="https://twitter.com/OpenADx?ref_src=twsrc%5Etfw">Follow @OpenADx</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <div id="vision" class="featured-section featured-vision padding-top-60 padding-bottom-60 row">
     <div class="container">
