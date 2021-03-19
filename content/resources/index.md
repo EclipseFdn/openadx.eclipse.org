@@ -6,10 +6,9 @@ layout: "single"
 hide_sidebar: true
 ---
 
-### White Papers
+### OpenADx Program Plan
 
 {{< download_program_plan >}}
-
 
 ### White Papers
 
