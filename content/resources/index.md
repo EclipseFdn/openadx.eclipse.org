@@ -6,6 +6,10 @@ layout: "single"
 hide_sidebar: true
 ---
 
+### OpenADx Program Plan
+
+{{< download_program_plan >}}
+
 ### White Papers
 
 {{< download_whitepaper >}}
@@ -36,6 +40,15 @@ under construction
 
 [Measuring open source project health (by Red Hat)](https://www.redhat.com/en/resources/measuring-open-source-health-brief)
 - A healthy open source project is one that demonstrates open practices, uses open infrastructure, and cultivates an open culture with the goal of becoming more sustainable. This document outlines considerations you should make when assessing the health of an open source project.
+
+[Building Safe Algorithms in the Open, Part 1 - Design (by Apex.AI)](https://www.apex.ai/post/building-safe-algorithms-in-the-open-part-1-design)
+- So between the old-fashioned, antiquated waterfall model, and the new hotness that is agile, what’s a developer to choose? Does the equation change when you’re trying to build algorithms? Or some safety-critical software?
+
+[Building Safe Algorithms in the Open, Part 2 - Implementation (by Apex.AI)](https://www.apex.ai/post/building-safe-algorithms-in-the-open-part-2-implementation)
+- When I first started developing professionally, I didn’t understand open-source. I didn’t understand side projects either, for that matter. After all, why would you give valuable work away for free? In the years since, after spending a little bit more time working with the open-source community through Apex.AI’s work with ROS 2 and Autoware.Auto, I’ve reached a little bit of an understanding of open-source.
+
+[Building Safe Algorithms in the Open, Part 3 - Integration (by Apex.AI)](https://www.apex.ai/post/building-safe-algorithms-in-the-open-part-3-integration)
+- We left off before having dug the trenches of code, so to speak, and we were left with something that was minimally functional--at least as far as the compiler and some tests are concerned. Now comes the hard part--making it work for real.
 
 ### OpenADx Wiki
 [OpenADx Wiki](https://wiki.eclipse.org/OpenADx)
