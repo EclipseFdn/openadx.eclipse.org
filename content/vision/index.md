@@ -44,6 +44,6 @@ The group is formed by multiple parties from around the world and supported by s
 -- The OpenADx Working Group is set up as a working group under the governance of the Eclipse Foundation. --
 
 
-OpenADx Big Picture
+### OpenADx Big Picture
 
 {{<image src="/images/OpenADx_Big_Picture_Toolchain.png" class="img-responsive">}}
