@@ -42,3 +42,8 @@ The name OpenADx thus stands for "Open, Autonomous Driving Accelerator".
 The group is formed by multiple parties from around the world and supported by several well-known industry-leading companies.
 
 -- The OpenADx Working Group is set up as a working group under the governance of the Eclipse Foundation. --
+
+
+OpenADx Big Picture
+
+{{<image src="/images/OpenADx_Big_Picture_Toolchain.png" class="img-responsive">}}
