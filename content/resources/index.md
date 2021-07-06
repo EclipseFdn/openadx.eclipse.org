@@ -23,6 +23,11 @@ Watch the video on OpenADx here on YouTube: https://youtu.be/7gHLkSzWNKA
 - [Blog Post: 5 things you should know about OpenADx](https://blog.bosch-si.com/developer/5-things-you-should-know-about-openadx)
 - [Blog Post: OpenADx reaches next level](https://blog.bosch-si.com/mobility/openadx-initiative-reaches-next-level/)
 - [Vorteile von Open Source fuer ADAS und autonomes Fahren (only in German available)](https://www.elektroniknet.de/elektronik-automotive/assistenzsysteme/vorteile-von-open-source-fuer-adas-und-autonomes-fahren-154085.html)
+- [Open Source Software Drives Indy Autonomous Challenge Racecars](https://newsroom.eclipse.org/eclipse-newsletter/2021/june/open-source-software-drives-indy-autonomous-challenge-racecars)
+- [Q&A: It’s Time to Take a Closer Look at Eclipse iceoryx](https://newsroom.eclipse.org/eclipse-newsletter/2021/june/qa-it%E2%80%99s-time-take-closer-look-eclipse-iceoryx)
+- [Collaborating with Ecosystem Partners to Accelerate “Autonomous Driving for All” by ADLINK](https://www.adlinktech.com/en/Connected-Autonomous-Vehicle-Solutions)
+- [Rise to the Indy Autonomous Challenge by ADLINK](https://material.adlinktech.com/ADLinkFile/Publication/1549/Solution_Brief-Rise_to_the_Indy_Autonomous_Challenge_05-07-2021.pdf)
+- [Autonomes Fahren und Open-Source-Technologien - Ist das eine gute Idee? (German only) | Informatik Aktuell](https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/autonomes-fahren-und-open-source-technologien.html)
 
 ### Videos
 
