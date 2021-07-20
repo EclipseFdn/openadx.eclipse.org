@@ -16,14 +16,14 @@ layout: "single"
 {{< grid/section-container class="featured-section-news margin-bottom-50" >}}
   {{< grid/div class="col-sm-12" isMarkdown="false" >}}
     <h2 class="header-underline margin-bottom-10">News</h2>
-    {{< newsroom/news id="news-template-id" class="news-list" includeList="true" >}}
+    {{< newsroom/news id="news-template-id" class="news-list" includeList="true" publishTarget="openadx" >}}
   {{</ grid/div >}}
   {{< grid/div class="col-sm-8 col-sm-offset-1" isMarkdown="false" >}}
       <h2 class="header-underline margin-bottom-30">Events</h2>
       {{< newsroom/events
           id="event-list-container"
           publishTarget="openadx"
-          class="asd"
+          class="event-list-custom"
           upcoming="1"
           templateId="custom-events-template"
           templatePath="/js/templates/event-list-format.mustache"
