@@ -15,3 +15,9 @@ hide_sidebar: true
 ---
 
 
+{{< newsroom/news
+      id="event-list-container"
+      archive="true"
+      publishTarget="openadx"
+      count="10"
+      paginate="true" >}}
