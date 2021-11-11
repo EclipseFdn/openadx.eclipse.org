@@ -19,7 +19,7 @@ time.
 Install dependencies, build assets and start a webserver:
 
 ```bash
-npm install && npm run dev && hugo server --disableFastRender --buildFuture
+yarn && hugo server --disableFastRender --buildFuture
 ```
 
 ## Contributing
