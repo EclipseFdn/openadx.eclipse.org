@@ -29,9 +29,9 @@ Watch the video on OpenADx here on YouTube: https://youtu.be/7gHLkSzWNKA
 - [Rise to the Indy Autonomous Challenge by ADLINK](https://material.adlinktech.com/ADLinkFile/Publication/1549/Solution_Brief-Rise_to_the_Indy_Autonomous_Challenge_05-07-2021.pdf)
 
 ### Presentations
-- [FOSDEM 2018 - Community Main Track: OpenADx – xcelerate your Automated Driving development][https://fosdem.org/2018/schedule/event/automated_driving]
-- [TNG Big Tech Day: OpenADx – xcelerate your Automated Driving development – Slides: File:2018 05 18 OpenADxAtTNGBigTechDay.pdf][https://wiki.eclipse.org/file:2018_05_18_OpenADxAtTNGBigTechDay.pdf]
-- [IBM - 2nd Developer UnConference - Rewire Industrial Business 28th Feb. 2019][https://www.meetup.com/Big-Data-Developers-in-Stuttgart/events/256621553/?isFromReg=true&fromJoin=256621553]
+- [FOSDEM 2018 - Community Main Track: OpenADx – xcelerate your Automated Driving development](https://fosdem.org/2018/schedule/event/automated_driving)
+- [TNG Big Tech Day: OpenADx – xcelerate your Automated Driving development – Slides: File:2018 05 18 OpenADxAtTNGBigTechDay.pdf](https://wiki.eclipse.org/file:2018_05_18_OpenADxAtTNGBigTechDay.pdf)
+- [IBM - 2nd Developer UnConference - Rewire Industrial Business 28th Feb. 2019](https://www.meetup.com/Big-Data-Developers-in-Stuttgart/events/256621553/?isFromReg=true&fromJoin=256621553)
 ### Videos
 
 {{< resources_video_section >}}
