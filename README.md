@@ -14,14 +14,12 @@ chain itself is not something we can monetize.
 All major stakeholders/users have issues associated with tool incompatibility, data conversion and lost
 time.
 
-[![Build Status](https://travis-ci.org/EclipseFdn/openadx.eclipse.org.svg?branch=master)](https://travis-ci.org/EclipseFdn/openadx.eclipse.org)
-
 ## Getting started
 
 Install dependencies, build assets and start a webserver:
 
 ```bash
-npm install && npm run dev && hugo server --disableFastRender --buildFuture
+yarn && hugo server --disableFastRender --buildFuture
 ```
 
 ## Contributing
