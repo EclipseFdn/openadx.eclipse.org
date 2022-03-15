@@ -1,5 +1,12 @@
 # openadx.eclipse.org
 
+---
+**NOTE**
+
+This project was migrated to [Eclipse Gitlab](https://gitlab.eclipse.org/eclipsefdn/it/websites/openadx.eclipse.org) on March 15, 2022.
+
+---
+
 The [openadx.eclipse.org](https://openadx.eclipse.org) website is generated with [Hugo](https://gohugo.io/documentation/).
 
 Autonomous driving (AD) is an extremely complex challenge with a complex development process,
