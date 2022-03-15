@@ -18,6 +18,7 @@ hide_sidebar: true
 ### Articles
 Watch the video on OpenADx here on YouTube: https://youtu.be/7gHLkSzWNKA
 
+- [Autonomes Fahren und Open-Source-Technologien - Ist das eine gute Idee? (German only) | Informatik Aktuell](https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/autonomes-fahren-und-open-source-technologien.html)
 - [Blog Post: Autonomous Driving Toolchain](https://blog.bosch-si.com/developer/autonomous-driving-toolchain)
 - [Blog Post: Autonomous Driving Accelerator OpenADx launched](https://blog.bosch-si.com/developer/autonomous-driving-accelerator-openadx-launched)
 - [Blog Post: 5 things you should know about OpenADx](https://blog.bosch-si.com/developer/5-things-you-should-know-about-openadx)
